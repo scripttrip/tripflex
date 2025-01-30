@@ -71,7 +71,7 @@ export function base64ToBuffer(data: string) {
 }
 
 export function base64ToStringBuffer(data: string) {
-  return forge.util.createBuffer((data));
+  return forge.util.createBuffer(`data`);
 }
 
 export function stringBufferToBase64(buffer: forge.util.ByteStringBuffer) {
