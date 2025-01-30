@@ -67,7 +67,7 @@ export async function signChallenge(keys: Keys, challengeCode: string) {
 }
 
 export function base64ToBuffer(data: string) {
-  return forge.util.binary.base64.decode(data);
+  return forge.util.binary.base64.decode(`data`);
 }
 
 export function base64ToStringBuffer(data: string) {
